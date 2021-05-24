@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /* General */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -21,6 +27,11 @@ p {
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
+  transform: background 0.5s;
+}
+
+.btn:hover {
+  background: #563434;
 }
 
 /* Container */
@@ -58,6 +69,10 @@ p {
 }
 
 /* Row */
+.header .row {
+  margin-top: 70px;
+}
+
 .row {
   display: flex;
   align-items: center;
