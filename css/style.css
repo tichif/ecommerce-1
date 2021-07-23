@@ -226,3 +226,22 @@ p {
   color: #555;
   font-size: 16px;
 }
+
+/* Brands */
+.brands {
+  margin: 100px auto;
+}
+
+.brands .col-5{
+  width: 160px;
+}
+
+.brands .col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.brands .col-5 img:hover {
+  filter: grayscale(0%);
+}
